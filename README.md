@@ -4,9 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/WKUIKit.svg?style=flat)](https://cocoapods.org/pods/WKUIKit)
 [![License](https://img.shields.io/cocoapods/l/WKUIKit.svg?style=flat)](https://cocoapods.org/pods/WKUIKit)
 [![Platform](https://img.shields.io/cocoapods/p/WKUIKit.svg?style=flat)](https://cocoapods.org/pods/WKUIKit)
-
-## Example
-# WKUIKit
+ 
 # 一款基于OC语言的UI框架 目前包含6个控件，14个扩展类，持续更新中...
 
 ## WKUIButton & UIButton+WKUI （按钮 以及 按钮的常用扩展方法） 
