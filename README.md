@@ -151,9 +151,7 @@
  @warning UIView 的 transform 并不会在截图里生效
  */
 + (nullable UIImage *)wkui_imageWithView:(UIView *)view;
-```
- 
-## 持续更新中，敬请期待！！！
+``` 
 
 ## Installation
 
@@ -164,7 +162,5 @@ pod 'WKUIKit', :git => 'https://github.com/PrgmWang/WKUIKit.git'
 ## Author
 
 PrgmWang, 41496789@qq.com
-
-## License
-
-WKUIKit is available under the MIT license. See the LICENSE file for more info.
+ 
+## 持续更新中，敬请期待！！！
