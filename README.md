@@ -61,17 +61,8 @@
 @interface WKUIFillButton : WKUIButton
 
 @property(nonatomic, strong, nullable) IBInspectable UIColor *fillColor; // 默认为 FillButtonColorBlue
-@property(nonatomic, strong, nullable) IBInspectable UIColor *titleTextColor; // 默认为 UIColorWhite
+@property(nonatomic, strong, nullable) IBInspectable UIColor *titleTextColor; // 默认为 UIColorWhite 
 
-/**
- *  控制按钮里面的图片是否也要跟随 `titleTextColor` 一起变化，默认为 `NO`
- */
-@property(nonatomic, assign) BOOL adjustsImageWithTitleTextColor UI_APPEARANCE_SELECTOR;
-
-- (instancetype)initWithFillType:(WKUIFillButtonColor)fillType;
-- (instancetype)initWithFillType:(WKUIFillButtonColor)fillType frame:(CGRect)frame;
-- (instancetype)initWithFillColor:(nullable UIColor *)fillColor titleTextColor:(nullable UIColor *)textColor;
-- (instancetype)initWithFillColor:(nullable UIColor *)fillColor titleTextColor:(nullable UIColor *)textColor frame:(CGRect)frame;
 ```
 
 ## WKUIGhostButton 继承自WKUIButton。
@@ -85,15 +76,7 @@
 
 @property(nonatomic, strong, nullable) IBInspectable UIColor *ghostColor;    // 默认为 GhostButtonColorBlue
 @property(nonatomic, assign) IBInspectable CGFloat borderWidth UI_APPEARANCE_SELECTOR;    // 默认为 1pt
-
-/**
- *  控制按钮里面的图片是否也要跟随 `ghostColor` 一起变化，默认为 `NO`
- */
-@property(nonatomic, assign) IBInspectable BOOL adjustsImageWithGhostColor UI_APPEARANCE_SELECTOR;
-
-- (instancetype)initWithGhostType:(WKUIGhostButtonColor)ghostType;
-- (instancetype)initWithGhostColor:(nullable UIColor *)ghostColor;
-
+ 
 ```
 
 ## WKUITextField （输入框） 
@@ -102,17 +85,14 @@
 *  2. 自定义 UITextField 的文字 padding。
 *  3. 支持限制输入的文字的长度。 
 ```objective-c
-    WKUITextField *inputTF = [[WKUITextField alloc] initWithFrame:CGRectMake(20, 100,200, 40)];
-    inputTF.backgroundColor = UIColor.lightGrayColor;
+    WKUITextField *inputTF = [[WKUITextField alloc] initWithFrame:CGRectMake(20, 100,200, 40)]; 
     //输入框支持最大输入长度
     inputTF.maximumTextLength =  4;
     //在使用 maximumTextLength 功能的时候，是否应该把文字长度按照ASII计算
     inputTF.shouldCountingNonASCIICharacterAsTwo = YES;
     inputTF.placeholder = @"搜索";
     //输入框占位字符串的颜色
-    inputTF.placeholderColor = UIColor.whiteColor;
-    inputTF.textColor = UIColor.redColor;
-    [self.view addSubview:inputTF];
+    inputTF.placeholderColor = UIColor.whiteColor; 
 ```
 
 ## WKUITextView （多行输入框）
@@ -122,13 +102,13 @@
 *  3. 支持限制输入框最大高度，一般配合第 2 点使用。
 *  4. 支持限制输入的文本的最大长度，默认不限制。 
 ```objective-c
-    WKUITextView *tv = [[WKUITextView alloc] initWithFrame:CGRectMake(100, 300, 200, 50)];
-    tv.backgroundColor = UIColor.lightGrayColor;
+    WKUITextView *tv = [[WKUITextView alloc] initWithFrame:CGRectMake(100, 300, 200, 50)]; 
+    //最大输入长度
     tv.maximumTextLength = 100;
+    //可以直接设置placeholder
     tv.placeholder = @"请输入内容";
-    tv.placeholderColor = UIColor.purpleColor;
-    tv.textColor = UIColor.redColor;
-    [self.view addSubview:tv];
+    //直接修改placeholder颜色
+    tv.placeholderColor = UIColor.purpleColor; 
 ```
 
 ## UIImage+WKUI （图片扩展方法）
@@ -173,11 +153,9 @@
 + (nullable UIImage *)wkui_imageWithView:(UIView *)view;
 ```
  
+## 持续更新中，敬请期待！！！
 
 ## Installation
-
-WKUIKit is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
 
 ```ruby 
 pod 'WKUIKit', :git => 'https://github.com/PrgmWang/WKUIKit.git'
