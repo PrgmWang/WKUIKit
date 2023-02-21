@@ -1,18 +1,29 @@
 //
-//  WKAppDelegate.m
+//  AppDelegate.m
 //  WKUIKit
 //
 //  Created by PrgmWang on 02/21/2023.
 //  Copyright (c) 2023 PrgmWang. All rights reserved.
 //
 
-#import "WKAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation WKAppDelegate
+#import "ViewController.h"
+
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    NSMutableDictionary *attr = [NSMutableDictionary dictionary];
+    attr[NSFontAttributeName] = [UIFont boldSystemFontOfSize:17];
+    attr[NSForegroundColorAttributeName] = [UIColor blackColor];
+    nav.navigationBar.titleTextAttributes = attr;
+ 
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

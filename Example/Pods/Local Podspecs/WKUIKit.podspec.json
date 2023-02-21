@@ -1,0 +1,22 @@
+{
+  "name": "WKUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of WKUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PrgmWang/WKUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PrgmWang": "41496789@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/PrgmWang/WKUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "WKUIKit/Classes/**/*"
+}

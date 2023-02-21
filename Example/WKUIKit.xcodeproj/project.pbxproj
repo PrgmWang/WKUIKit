@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A1DB83129A468ED00CDED46 /* WKUIColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1DB82429A468ED00CDED46 /* WKUIColorViewController.m */; };
+		3A1DB83229A468ED00CDED46 /* WKUISafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1DB82529A468ED00CDED46 /* WKUISafeViewController.m */; };
+		3A1DB83329A468ED00CDED46 /* WKUIImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1DB82729A468ED00CDED46 /* WKUIImageViewController.xib */; };
+		3A1DB83429A468ED00CDED46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1DB82929A468ED00CDED46 /* ViewController.m */; };
+		3A1DB83529A468ED00CDED46 /* WKUIImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1DB82A29A468ED00CDED46 /* WKUIImageViewController.m */; };
+		3A1DB83629A468ED00CDED46 /* WKButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1DB82B29A468ED00CDED46 /* WKButtonViewController.m */; };
+		3A1DB83729A468ED00CDED46 /* WKUIInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1DB83029A468ED00CDED46 /* WKUIInputViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* WKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* WKAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* WKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* WKViewController.m */; };
+		6003F59E195388D20070C39A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* AppDelegate.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -38,7 +44,20 @@
 
 /* Begin PBXFileReference section */
 		0CD635461639C69E715FA8AD /* Pods-WKUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-WKUIKit_Example/Pods-WKUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1F68480731E04D24F40A4BF8 /* WKUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WKUIKit.podspec; path = ../WKUIKit.podspec; sourceTree = "<group>"; };
+		1F68480731E04D24F40A4BF8 /* WKUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WKUIKit.podspec; path = ../WKUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3A1DB82429A468ED00CDED46 /* WKUIColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKUIColorViewController.m; sourceTree = "<group>"; };
+		3A1DB82529A468ED00CDED46 /* WKUISafeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKUISafeViewController.m; sourceTree = "<group>"; };
+		3A1DB82629A468ED00CDED46 /* WKButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKButtonViewController.h; sourceTree = "<group>"; };
+		3A1DB82729A468ED00CDED46 /* WKUIImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKUIImageViewController.xib; sourceTree = "<group>"; };
+		3A1DB82829A468ED00CDED46 /* WKUIInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKUIInputViewController.h; sourceTree = "<group>"; };
+		3A1DB82929A468ED00CDED46 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A1DB82A29A468ED00CDED46 /* WKUIImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKUIImageViewController.m; sourceTree = "<group>"; };
+		3A1DB82B29A468ED00CDED46 /* WKButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKButtonViewController.m; sourceTree = "<group>"; };
+		3A1DB82C29A468ED00CDED46 /* WKUISafeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKUISafeViewController.h; sourceTree = "<group>"; };
+		3A1DB82D29A468ED00CDED46 /* WKUIColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKUIColorViewController.h; sourceTree = "<group>"; };
+		3A1DB82E29A468ED00CDED46 /* WKUIImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKUIImageViewController.h; sourceTree = "<group>"; };
+		3A1DB82F29A468ED00CDED46 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A1DB83029A468ED00CDED46 /* WKUIInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKUIInputViewController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WKUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,10 +66,8 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* WKUIKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKUIKit-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* WKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* WKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* WKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* WKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKViewController.m; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* WKUIKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKUIKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -59,8 +76,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7361AC0ABE450FC89D9A714A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		7A0AC916E80DC73413D51410 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7361AC0ABE450FC89D9A714A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7A0AC916E80DC73413D51410 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7DD0EDB373F5E59C10491D3A /* Pods_WKUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D13214E20FE94E757715D68 /* Pods-WKUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-WKUIKit_Tests/Pods-WKUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,15 +120,34 @@
 				C002DCE72F630DDFB0C11FAD /* Pods-WKUIKit_Tests.debug.xcconfig */,
 				9D13214E20FE94E757715D68 /* Pods-WKUIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		3A1DB82329A468ED00CDED46 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3A1DB82F29A468ED00CDED46 /* ViewController.h */,
+				3A1DB82929A468ED00CDED46 /* ViewController.m */,
+				3A1DB82629A468ED00CDED46 /* WKButtonViewController.h */,
+				3A1DB82B29A468ED00CDED46 /* WKButtonViewController.m */,
+				3A1DB82D29A468ED00CDED46 /* WKUIColorViewController.h */,
+				3A1DB82429A468ED00CDED46 /* WKUIColorViewController.m */,
+				3A1DB82E29A468ED00CDED46 /* WKUIImageViewController.h */,
+				3A1DB82A29A468ED00CDED46 /* WKUIImageViewController.m */,
+				3A1DB82729A468ED00CDED46 /* WKUIImageViewController.xib */,
+				3A1DB82829A468ED00CDED46 /* WKUIInputViewController.h */,
+				3A1DB83029A468ED00CDED46 /* WKUIInputViewController.m */,
+				3A1DB82C29A468ED00CDED46 /* WKUISafeViewController.h */,
+				3A1DB82529A468ED00CDED46 /* WKUISafeViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for WKUIKit */,
+				6003F593195388D20070C39A /* WKUIKit */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
@@ -141,19 +177,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for WKUIKit */ = {
+		6003F593195388D20070C39A /* WKUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* WKAppDelegate.h */,
-				6003F59D195388D20070C39A /* WKAppDelegate.m */,
+				6003F59C195388D20070C39A /* AppDelegate.h */,
+				6003F59D195388D20070C39A /* AppDelegate.m */,
+				3A1DB82329A468ED00CDED46 /* ViewController */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* WKViewController.h */,
-				6003F5A6195388D20070C39A /* WKViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for WKUIKit";
 			path = WKUIKit;
 			sourceTree = "<group>";
 		};
@@ -248,6 +282,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = PrgmWang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 5M37NWN628;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +295,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -278,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				3A1DB83329A468ED00CDED46 /* WKUIImageViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -364,8 +403,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* WKAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* WKViewController.m in Sources */,
+				3A1DB83629A468ED00CDED46 /* WKButtonViewController.m in Sources */,
+				3A1DB83729A468ED00CDED46 /* WKUIInputViewController.m in Sources */,
+				3A1DB83429A468ED00CDED46 /* ViewController.m in Sources */,
+				6003F59E195388D20070C39A /* AppDelegate.m in Sources */,
+				3A1DB83229A468ED00CDED46 /* WKUISafeViewController.m in Sources */,
+				3A1DB83529A468ED00CDED46 /* WKUIImageViewController.m in Sources */,
+				3A1DB83129A468ED00CDED46 /* WKUIColorViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +538,7 @@
 			baseConfigurationReference = B3FCEBE12B8E72449FEF85E2 /* Pods-WKUIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5M37NWN628;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WKUIKit/WKUIKit-Prefix.pch";
 				INFOPLIST_FILE = "WKUIKit/WKUIKit-Info.plist";
@@ -510,6 +555,7 @@
 			baseConfigurationReference = 0CD635461639C69E715FA8AD /* Pods-WKUIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5M37NWN628;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WKUIKit/WKUIKit-Prefix.pch";
 				INFOPLIST_FILE = "WKUIKit/WKUIKit-Info.plist";

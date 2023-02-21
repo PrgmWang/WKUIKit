@@ -22,7 +22,7 @@ pod 'WKUIKit'
 
 ## Author
 
-PrgmWang, wang.kai@jnetdata.com
+PrgmWang, 41496789@qq.com
 
 ## License
 

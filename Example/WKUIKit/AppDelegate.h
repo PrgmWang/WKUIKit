@@ -1,5 +1,5 @@
 //
-//  WKViewController.h
+//  AppDelegate.h
 //  WKUIKit
 //
 //  Created by PrgmWang on 02/21/2023.
@@ -8,6 +8,8 @@
 
 @import UIKit;
 
-@interface WKViewController : UIViewController
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end
