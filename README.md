@@ -161,6 +161,6 @@ pod 'WKUIKit', :git => 'https://github.com/PrgmWang/WKUIKit.git'
 
 ## Author
 
-PrgmWang, 41496789@qq.com
+PrgmWang, 41496789@qq.com ,wx:PrgmWang
  
 ## 持续更新中，敬请期待！！！
